@@ -23,7 +23,8 @@
     background-color: black;
 }
 
-.debug .first-section-container, .pink-rectangle, .blue-rectangle{
+.debug .first-section-container, .debug.invitation-place, 
+.debug.discord-groups{
     height: 400px;
 }
 
@@ -31,11 +32,11 @@
     background-color: violet;
 }
 
-.debug .pink-rectangle{
+.debug .invitation-place{
     background-color: #ffc0cb;
 }
 
-.debug .blue-rectangle{
+.debug .discord-groups{
     background-color: #1e90ff;
 }
 
@@ -80,9 +81,8 @@ h1{
     font-size: 3rem;
 }
 
-p{
-    color: white;
-    padding: 2rem;
+h2{
+    font-size: 3rem;
 }
 
 img{
@@ -117,8 +117,9 @@ header, nav{
 
 /*main region*/
 .bg-blue{
-    background-color: #4672e7;
     background-image: url('./img/jumbo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .first-section-container{
@@ -127,10 +128,10 @@ header, nav{
     text-align: center;
 }
 
-.discord-opening{
+.first-section-container > p{
+    color: white;
     padding: 2rem;
 }
-
 
 .mac-download{
     background-color: white;
@@ -151,12 +152,17 @@ header, nav{
     background-color: white;
 }
 
-.pink-rectangle{
-    width: 40%;
+.invitation-place{
+    width: 25%;
+    margin-right: 2rem;
 }
 
-.blue-rectangle{
-    width: 60%;
+.invitation-place > p{
+    margin-top: 1.5rem;
+}
+
+.discord-groups{
+    width: 45%;
 }
 
 .bg-light-gray{
@@ -170,8 +176,8 @@ header, nav{
 
 /*utilities region*/
 .bg-blue, .bg-white, .bg-light-gray, .bg-black{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 /*footer region*/
