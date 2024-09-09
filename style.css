@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*debug region*/
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug nav{
+    background-color: #daa520;
+}
+
+.debug main{
+    background-color: gray;
+}
+
+.debug footer{
+    background-color: black;
+}
+
+.debug .first-section-container, .pink-rectangle, .blue-rectangle{
+    height: 400px;
+}
+
+.debug .first-section-container{
+    background-color: violet;
+}
+
+.debug .pink-rectangle{
+    background-color: #ffc0cb;
+}
+
+.debug .blue-rectangle{
+    background-color: #1e90ff;
+}
+
+.debug .fifth-section-container{
+    height: 800px;
+    background-color: #228b22;
+}
+
+.debug .darkgreen-rectangle, .debug .light-red-rectangle{
+    height: 500px;
+}
+
+.debug .light-red-rectangle{
+    background-color: #f08080;
+}
+
+.debug .darkgreen-rectangle{
+    background-color: #20b2aa;
+}
+
+.debug .ending-flex-container{
+    background-color: #7fffd4;
+}
+
+.debug .logo-footer, .debug .button{
+    background-color: #ffb6c1;
+}
+
+/*common region*/
+
+li{
+    padding: 0 5px;
+}
+
+ul{
+    list-style: none;
+    width: 50%;
+}
+
+/*header region*/
+
+header{
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .login{
+    width: 25%;
+    padding: 0 5px;
+}
+
+.login{
+    text-align: right;
+}
+
+/*main region*/
+.bg-blue{
+    background-color: darkblue;
+}
+
+.first-section-container{
+    width: 70%;
+    margin: auto;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.pink-rectangle{
+    width: 40%;
+}
+
+.blue-rectangle{
+    width: 60%;
+}
+
+.bg-light-gray{
+    background-color: #d3d3d3;
+}
+
+.fifth-section-container{
+    width: 80%;
+    margin: auto;
+}
+
+/*utilities region*/
+.bg-blue, .bg-white, .bg-light-gray, .bg-black{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.logo, div.login, ul.d-flex,.first-section-container, 
+.pink-rectangle, .blue-rectangle, .fifth-section-container, 
+.light-red-rectangle, .logo-footer, .button{
+    border: 1px dashed;
+}
+
+/*footer region*/
+.bg-black{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.light-red-rectangle{
+    width: calc((100% / 12) * 4);
+}
+
+.darkgreen-rectangle{
+    width: calc((100% / 12) * 2);
+    border: 1px dashed white;
+}
+
+hr.divider {
+    border-bottom: 1px solid white !important;
+}
+
+.ending-flex-container{
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.logo-footer, .button{
+    padding: 5px;
+}
