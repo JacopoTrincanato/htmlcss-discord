@@ -261,11 +261,13 @@ header, nav{
 }
 
 #language-selector, .socials{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
-#twitter-icon, #instagram-icon{
+#twitter-icon, #instagram-icon, #facebook-icon, #youtube-icon{
     width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 h3.violet-text{
