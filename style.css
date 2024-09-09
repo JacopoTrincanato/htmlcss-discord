@@ -71,13 +71,15 @@ li{
     padding: 0 10px;
 }
 
+ul, h1{
+    color: white; 
+}
+
 ul{
     list-style: none;
-    color: white;
 }
 
 h1{
-    color: white;
     font-size: 3rem;
 }
 
@@ -88,10 +90,8 @@ h2{
 img{
     max-width: 100%;
 }
+/*end common region*/
 
-select{
-    color: white;
-}
 /*header region*/
 
 header{
@@ -118,6 +118,7 @@ header, nav{
     padding: 10px;
     border-radius: 15px;
 }
+/*end region*/
 
 /*main region*/
 .bg-img{
@@ -137,19 +138,19 @@ header, nav{
     padding: 2rem;
 }
 
-.mac-download1{
-    background-color: white;
+.mac-download1, .browser{
     border-radius: 20px;
     padding: 10px 20px;
     margin-right: 10px;
 }
 
+.mac-download1{
+    background-color: white;
+}
+
 .browser{
     color: white;
     background-color: black;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-left: 10px;
 }
 
 .bg-white{
@@ -213,6 +214,8 @@ header, nav{
     padding-bottom: 10rem;
 }
 
+/*end main region*/
+
 /*footer region*/
 .bg-black{
     background-color: black;
@@ -225,7 +228,7 @@ header, nav{
 }
 
 .place-to-talk{
-    width: calc((100% / 12) * 4);
+    width: calc((100% / 12) * 3);
 }
 
 .bg-black:first-child{
@@ -233,18 +236,20 @@ header, nav{
     padding-bottom: 5rem;
 }
 
+#Italy img, .place-to-talk > div{
+    vertical-align: middle;
+}
+
 #Italy img{
     width: 30px;
-    vertical-align: middle;
 }
 
 .place-to-talk > div{
     color: white;
-    vertical-align: middle;
 }
 
 .product, .company, .resources, .policies{
-    width: calc((100% / 12) * 2);
+    width: calc(100% / 12);
 }
 
 .product > li, .company > li, .resources > li, .policies > li{
@@ -253,6 +258,14 @@ header, nav{
 
 .violet-text{
     color: #7289da;
+}
+
+#language-selector, .socials{
+    margin-top: 10px;
+}
+
+#twitter-icon, #instagram-icon{
+    width: 30px;
 }
 
 h3.violet-text{
@@ -269,8 +282,7 @@ hr.divider {
     justify-content: space-between;
     padding: 1rem;
     margin-top: 1rem;
+    width: 80%;
 }
 
-.logo-footer{
-    padding: 5px;
-}
+/*end footer region*/
