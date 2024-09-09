@@ -75,6 +75,19 @@ ul{
     color: white;
 }
 
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+p{
+    color: white;
+    padding: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
 /*header region*/
 
 header{
@@ -98,18 +111,40 @@ header, nav{
 .login{
     text-align: right;
     background-color: white;
+    padding: 10px;
     border-radius: 15px;
-    padding: 8px;
 }
 
 /*main region*/
 .bg-blue{
-    background-color: darkblue;
+    background-color: #4672e7;
+    background-image: url('./img/jumbo.png');
 }
 
 .first-section-container{
     width: 70%;
     margin: auto;
+    text-align: center;
+}
+
+.discord-opening{
+    padding: 2rem;
+}
+
+
+.mac-download{
+    background-color: white;
+    border-radius: 15px;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.browser{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 12px;
+    margin-left: 10px;
 }
 
 .bg-white{
