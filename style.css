@@ -116,7 +116,7 @@ header, nav{
 }
 
 /*main region*/
-.bg-blue{
+.bg-img{
     background-image: url('./img/jumbo.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -133,18 +133,18 @@ header, nav{
     padding: 2rem;
 }
 
-.mac-download{
+.mac-download1{
     background-color: white;
-    border-radius: 15px;
-    padding: 12px;
+    border-radius: 20px;
+    padding: 10px 20px;
     margin-right: 10px;
 }
 
 .browser{
     color: white;
     background-color: black;
-    border-radius: 15px;
-    padding: 12px;
+    border-radius: 20px;
+    padding: 10px 20px;
     margin-left: 10px;
 }
 
@@ -152,30 +152,56 @@ header, nav{
     background-color: white;
 }
 
-.invitation-place{
-    width: 25%;
+.invitation-place, .fandom{
     margin-right: 2rem;
 }
 
-.invitation-place > p{
+.invitation-place, .easy-find, .fandom{
+    width: 25%;
+}
+
+.easy-find{
+    margin-left: 2rem;
+}
+
+.invitation-place > p, .easy-find > p, .fandom > p{
     margin-top: 1.5rem;
 }
 
-.discord-groups{
+.discord-groups, .voice-connect{
     width: 45%;
 }
 
 .bg-light-gray{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .fifth-section-container{
     width: 80%;
     margin: auto;
+    text-align: center;
+}
+
+.fifth-section-container > p{
+    padding: 1rem;
+}
+
+.fifth-section-container > h3{
+    background-image: url('./img/stars.svg');
+    font-size: 1.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+}
+
+.mac-download2{
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 /*utilities region*/
-.bg-blue, .bg-white, .bg-light-gray, .bg-black{
+.bg-img, .bg-white, .bg-light-gray, .bg-black{
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
