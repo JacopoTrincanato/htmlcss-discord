@@ -88,6 +88,10 @@ h2{
 img{
     max-width: 100%;
 }
+
+select{
+    color: white;
+}
 /*header region*/
 
 header{
@@ -191,9 +195,12 @@ header, nav{
     font-size: 1.5rem;
     background-repeat: no-repeat;
     margin-bottom: 3rem;
+    background-size: contain;
+    background-position: center;
+    padding-top: 20px;
 }
 
-.mac-download2{
+.mac-download2, .button{
     background-color: #8ea1e1;
     color: white;
     border-radius: 20px;
@@ -201,7 +208,7 @@ header, nav{
 }
 
 /*utilities region*/
-.bg-img, .bg-white, .bg-light-gray, .bg-black{
+.bg-img, .bg-white, .bg-light-gray{
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -212,25 +219,58 @@ header, nav{
     border-bottom: 1px solid white;
 }
 
-.light-red-rectangle{
+.baseline{
+    align-items: baseline;
+    padding: 5rem;
+}
+
+.place-to-talk{
     width: calc((100% / 12) * 4);
 }
 
-.darkgreen-rectangle{
+.bg-black:first-child{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#Italy img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.place-to-talk > div{
+    color: white;
+    vertical-align: middle;
+}
+
+.product, .company, .resources, .policies{
     width: calc((100% / 12) * 2);
-    border: 1px dashed white;
+}
+
+.product > li, .company > li, .resources > li, .policies > li{
+    margin-top: 10px;
+}
+
+.violet-text{
+    color: #7289da;
+}
+
+h3.violet-text{
+    font-size: 2rem;
 }
 
 hr.divider {
-    border-bottom: 1px solid white !important;
+    border-bottom: 1px solid #343c50 !important;
+    width: 80%;
+    margin: auto;
 }
 
 .ending-flex-container{
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem;
     margin-top: 1rem;
 }
 
-.logo-footer, .button{
+.logo-footer{
     padding: 5px;
 }
