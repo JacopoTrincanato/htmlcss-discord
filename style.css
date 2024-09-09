@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*debug region*/
@@ -66,12 +67,12 @@
 /*common region*/
 
 li{
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 ul{
     list-style: none;
-    width: 50%;
+    color: white;
 }
 
 /*header region*/
@@ -80,23 +81,25 @@ header{
     padding: 1rem 0;
 }
 
+header, nav{
+    background-color: #3161e0;
+}
+
 .container {
-    width: 80%;
     margin: auto;
 }
 
 .d-flex{
     display: flex;
-    justify-content: center;
-}
-
-.logo, .login{
-    width: 25%;
-    padding: 0 5px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .login{
     text-align: right;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 /*main region*/
@@ -134,12 +137,6 @@ header{
 .bg-blue, .bg-white, .bg-light-gray, .bg-black{
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-div.logo, div.login, ul.d-flex,.first-section-container, 
-.pink-rectangle, .blue-rectangle, .fifth-section-container, 
-.light-red-rectangle, .logo-footer, .button{
-    border: 1px dashed;
 }
 
 /*footer region*/
