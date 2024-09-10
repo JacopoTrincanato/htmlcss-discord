@@ -79,11 +79,7 @@ ul{
     list-style: none;
 }
 
-h1{
-    font-size: 3rem;
-}
-
-h2{
+h1, h2{
     font-size: 3rem;
 }
 
@@ -219,7 +215,6 @@ header, nav{
 /*footer region*/
 .bg-black{
     background-color: black;
-    border-bottom: 1px solid white;
 }
 
 .baseline{
@@ -253,7 +248,7 @@ header, nav{
 }
 
 .product > li, .company > li, .resources > li, .policies > li{
-    margin-top: 10px;
+    line-height: 25px;
 }
 
 .violet-text{
@@ -274,9 +269,12 @@ h3.violet-text{
     font-size: 2rem;
 }
 
+hr.divider, .ending-flex-container{
+    width: 80%;
+}
+
 hr.divider {
     border-bottom: 1px solid #343c50 !important;
-    width: 80%;
     margin: auto;
 }
 
@@ -284,7 +282,6 @@ hr.divider {
     justify-content: space-between;
     padding: 1rem;
     margin-top: 1rem;
-    width: 80%;
 }
 
 /*end footer region*/
