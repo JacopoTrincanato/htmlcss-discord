@@ -173,6 +173,19 @@ header, nav{
     width: 45%;
 }
 
+.wave{
+    color: #f6f6f6;
+}
+
+.wave-top {
+    margin-bottom: -4px;
+}
+
+.wave-bottom {
+    margin-top: -4px;
+    rotate: 180deg;
+}
+
 .bg-light-gray{
     background-color: #f6f6f6;
 }
@@ -273,7 +286,12 @@ hr.divider, .ending-flex-container{
     width: 80%;
 }
 
-hr.divider {
+.socials {
+    i {
+        padding: 0.25rem;
+    }
+}
+    hr.divider {
     border-bottom: 1px solid #343c50 !important;
     margin: auto;
 }
